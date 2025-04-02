@@ -574,7 +574,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &99179038
 Transform:
   m_ObjectHideFlags: 0
@@ -615,6 +615,7 @@ GameObject:
   m_Component:
   - component: {fileID: 116033124}
   - component: {fileID: 116033126}
+  - component: {fileID: 116033127}
   m_Layer: 0
   m_Name: GoalPostColliders
   m_TagString: Untagged
@@ -639,6 +640,41 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!70 &116033126
 CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116033123}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -1.055778, y: -0.45549202}
+  m_Size: {x: 0.1458101, y: 0.89100885}
+  m_Direction: 0
+--- !u!61 &116033127
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -669,9 +705,19 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1.055778, y: -0.45549202}
-  m_Size: {x: 0.1458101, y: 0.89100885}
-  m_Direction: 0
+  m_Offset: {x: -1.0558146, y: -0.44267434}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.14727712, y: 0.8642895}
+  m_EdgeRadius: 0
 --- !u!1 &165942252
 GameObject:
   m_ObjectHideFlags: 0
@@ -850,6 +896,7 @@ GameObject:
   m_Component:
   - component: {fileID: 403439986}
   - component: {fileID: 403439987}
+  - component: {fileID: 403439988}
   m_Layer: 0
   m_Name: GoalPostColliders (1)
   m_TagString: Untagged
@@ -874,6 +921,41 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!70 &403439987
 CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403439985}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -1.055778, y: -0.45549202}
+  m_Size: {x: 0.1458101, y: 0.89100885}
+  m_Direction: 0
+--- !u!61 &403439988
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -904,9 +986,19 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1.055778, y: -0.45549202}
-  m_Size: {x: 0.1458101, y: 0.89100885}
-  m_Direction: 0
+  m_Offset: {x: -1.0558146, y: -0.44267434}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.14727712, y: 0.8642895}
+  m_EdgeRadius: 0
 --- !u!1 &454634115
 GameObject:
   m_ObjectHideFlags: 0
@@ -2127,15 +2219,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: dfb2b4ba9277f664da065d6e79b002c2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.94, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &982569645
@@ -2175,7 +2267,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1.94, y: 1}
-    newSize: {x: 1, y: 1}
+    newSize: {x: 1.94, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -3195,13 +3287,13 @@ MonoBehaviour:
   reset_timer: 3
   gameTimeMultiplier: 1.5
   default_gol_sesi: {fileID: 8300000, guid: abf37ec05f12bb64db75f766b28a8952, type: 3}
-  "birinci_tak\u0131m_gol_sesi": {fileID: 8300000, guid: 51bd7a5e64bb2c9439e350111f02ce76, type: 3}
-  "ikinci_tak\u0131m_gol_sesi": {fileID: 8300000, guid: 7471d736f84f130418c7fa73d9cf8852, type: 3}
+  "birinci_tak\xFDm_gol_sesi": {fileID: 0}
+  "ikinci_tak\xFDm_gol_sesi": {fileID: 0}
   ambiyans_sesi: {fileID: 8300000, guid: 52e2842a3dbe7934487a00433561e242, type: 3}
-  "default_gol_sesi_y\xFCksekli\u011Fi": 0.5
-  "gol_sesi_y\xFCksekli\u011Fi": 0.132
-  "ambiyans_sesi_y\xFCksekli\u011Fi": 0.136
-  "top_carpisma_sesi_y\xFCksekli\u011Fi": 0.145
+  "default_gol_sesi_y\xFCksekli\xF0i": 1
+  "gol_sesi_y\xFCksekli\xF0i": 1
+  "ambiyans_sesi_y\xFCksekli\xF0i": 0.5
+  "top_carpisma_sesi_y\xFCksekli\xF0i": 0.5
   disableBall1At90: 0
   disableBall2At90: 0
   disableGoalAt90: 1
