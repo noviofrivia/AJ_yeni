@@ -170,7 +170,7 @@ VideoPlayer:
   m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
-  m_Looping: 0
+  m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
@@ -3287,13 +3287,13 @@ MonoBehaviour:
   reset_timer: 3
   gameTimeMultiplier: 1.5
   default_gol_sesi: {fileID: 8300000, guid: abf37ec05f12bb64db75f766b28a8952, type: 3}
-  "birinci_tak\xFDm_gol_sesi": {fileID: 0}
-  "ikinci_tak\xFDm_gol_sesi": {fileID: 0}
+  "birinci_tak\u0131m_gol_sesi": {fileID: 0}
+  "ikinci_tak\u0131m_gol_sesi": {fileID: 0}
   ambiyans_sesi: {fileID: 8300000, guid: 52e2842a3dbe7934487a00433561e242, type: 3}
-  "default_gol_sesi_y\xFCksekli\xF0i": 1
-  "gol_sesi_y\xFCksekli\xF0i": 1
-  "ambiyans_sesi_y\xFCksekli\xF0i": 0.5
-  "top_carpisma_sesi_y\xFCksekli\xF0i": 0.5
+  "default_gol_sesi_y\xFCksekli\u011Fi": 0.119
+  "gol_sesi_y\xFCksekli\u011Fi": 0.145
+  "ambiyans_sesi_y\xFCksekli\u011Fi": 0.17
+  "top_carpisma_sesi_y\xFCksekli\u011Fi": 0.123
   disableBall1At90: 0
   disableBall2At90: 0
   disableGoalAt90: 1
