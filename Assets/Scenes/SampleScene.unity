@@ -574,7 +574,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &99179038
 Transform:
   m_ObjectHideFlags: 0
@@ -2024,7 +2024,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 357.37128}
+  m_AnchoredPosition: {x: 0, y: 286}
   m_SizeDelta: {x: 0, y: 714.7427}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &935582690
@@ -2034,7 +2034,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 935582688}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -2047,7 +2047,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 17d7efc19b81540418b392205b06088c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2590759c792a7e447980a86b8a3baeb3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3284,16 +3284,16 @@ MonoBehaviour:
   ScoreboardPanel: {fileID: 21300000, guid: db861f6b2565926458e013261b4baf64, type: 3}
   kaleyi_resetle: 0
   gol_atan_topu_resetle: 0
-  reset_timer: 3
+  reset_timer: 2
   gameTimeMultiplier: 1.5
   default_gol_sesi: {fileID: 8300000, guid: abf37ec05f12bb64db75f766b28a8952, type: 3}
-  "birinci_tak\u0131m_gol_sesi": {fileID: 0}
-  "ikinci_tak\u0131m_gol_sesi": {fileID: 0}
+  "birinci_tak\xFDm_gol_sesi": {fileID: 0}
+  "ikinci_tak\xFDm_gol_sesi": {fileID: 0}
   ambiyans_sesi: {fileID: 8300000, guid: 52e2842a3dbe7934487a00433561e242, type: 3}
-  "default_gol_sesi_y\xFCksekli\u011Fi": 0.119
-  "gol_sesi_y\xFCksekli\u011Fi": 0.145
-  "ambiyans_sesi_y\xFCksekli\u011Fi": 0.17
-  "top_carpisma_sesi_y\xFCksekli\u011Fi": 0.123
+  "default_gol_sesi_y\xFCksekli\xF0i": 1
+  "gol_sesi_y\xFCksekli\xF0i": 1
+  "ambiyans_sesi_y\xFCksekli\xF0i": 0.5
+  "top_carpisma_sesi_y\xFCksekli\xF0i": 0.5
   disableBall1At90: 0
   disableBall2At90: 0
   disableGoalAt90: 1
