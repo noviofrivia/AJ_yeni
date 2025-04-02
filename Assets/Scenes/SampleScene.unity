@@ -148,7 +148,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 14597449}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: d1477e6a96b3dbe4cbdc574c256cc2ae, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 9223666dc7344ff40a3bdfc86678f959, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -3193,7 +3193,7 @@ MonoBehaviour:
   kaleyi_resetle: 0
   gol_atan_topu_resetle: 0
   reset_timer: 3
-  gameTimeMultiplier: 20
+  gameTimeMultiplier: 1.5
   default_gol_sesi: {fileID: 8300000, guid: abf37ec05f12bb64db75f766b28a8952, type: 3}
   "birinci_tak\u0131m_gol_sesi": {fileID: 8300000, guid: 51bd7a5e64bb2c9439e350111f02ce76, type: 3}
   "ikinci_tak\u0131m_gol_sesi": {fileID: 8300000, guid: 7471d736f84f130418c7fa73d9cf8852, type: 3}
