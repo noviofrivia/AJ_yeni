@@ -376,8 +376,8 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0.8666667, g: 0.73333335, b: 0.4, a: 1}
-      key1: {r: 0.8666667, g: 0.73333335, b: 0.4, a: 1}
+      key0: {r: 0.078720205, g: 0.17417437, b: 0.5754717, a: 1}
+      key1: {r: 0.030704875, g: 0.10186801, b: 0.4339623, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -2835,8 +2835,8 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0.8666667, g: 0.73333335, b: 0.4, a: 1}
-      key1: {r: 0.8666667, g: 0.73333335, b: 0.4, a: 1}
+      key0: {r: 0.4716981, g: 0.02002491, b: 0.15393943, a: 1}
+      key1: {r: 0.2830189, g: 0.022694914, b: 0.099660195, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -3286,8 +3286,8 @@ MonoBehaviour:
   gameTimeMultiplier: 1.5
   simulasyon_baslama_suresi: 3
   default_gol_sesi: {fileID: 8300000, guid: abf37ec05f12bb64db75f766b28a8952, type: 3}
-  "birinci_tak\xFDm_gol_sesi": {fileID: 0}
-  "ikinci_tak\xFDm_gol_sesi": {fileID: 0}
+  "birinci_tak\xFDm_gol_sesi": {fileID: 8300000, guid: 51bd7a5e64bb2c9439e350111f02ce76, type: 3}
+  "ikinci_tak\xFDm_gol_sesi": {fileID: 8300000, guid: 9840f0f746578224aa1316a873f8e9c8, type: 3}
   ambiyans_sesi: {fileID: 8300000, guid: 52e2842a3dbe7934487a00433561e242, type: 3}
   "default_gol_sesi_y\xFCksekli\xF0i": 1
   "gol_sesi_y\xFCksekli\xF0i": 1
