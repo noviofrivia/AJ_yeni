@@ -39,6 +39,7 @@ public class GameManager : MonoBehaviour
     [Header("Simülasyon süresi çarpaný")]
     [Tooltip("1 puan 90 saniye demek. Kaç sn istiyosan ona göre çarp. Örneðin 60sn için 1.5")]
     [SerializeField] private float gameTimeMultiplier = 1.5f;
+    [SerializeField] private float simulasyon_baslama_suresi;
 
     [Header("Gol Sesleri")]
     [SerializeField] private AudioClip default_gol_sesi; // Sound when any team scores
@@ -167,10 +168,18 @@ public class GameManager : MonoBehaviour
 
     void StartSimulation()
     {
+        StartCoroutine(StartSimulation_Coroutine());
+        UndisplayStartSimulationButton();
+    }
+
+    IEnumerator StartSimulation_Coroutine()
+    {
+        yield return new WaitForSeconds(simulasyon_baslama_suresi);
+
         ball_1.SetActive(true);
         ball_2.SetActive(true);
         goal.SetActive(true);
-        UndisplayStartSimulationButton();
+        
         StartTimer();
 
         PlayBackgroundMusic();
@@ -204,9 +213,9 @@ public class GameManager : MonoBehaviour
         }
 
         // Play goal sound #1 (team 2 scores)
-        if (ikinci_takým_gol_sesi != null && audioSource != null)
+        if (birinci_takým_gol_sesi != null && audioSource != null)
         {
-            audioSource.PlayOneShot(ikinci_takým_gol_sesi, gol_sesi_yüksekliði);
+            audioSource.PlayOneShot(birinci_takým_gol_sesi, gol_sesi_yüksekliði);
         }
 
         // Spawn fireworks at goal position
@@ -247,9 +256,9 @@ public class GameManager : MonoBehaviour
         }
 
         // Play goal sound #2 (team 1 scores)
-        if (birinci_takým_gol_sesi != null && audioSource != null)
+        if (ikinci_takým_gol_sesi != null && audioSource != null)
         {
-            audioSource.PlayOneShot(birinci_takým_gol_sesi, gol_sesi_yüksekliði);
+            audioSource.PlayOneShot(ikinci_takým_gol_sesi, gol_sesi_yüksekliði);
         }
 
         GameObject instantiated_firework_prefab = Instantiate(firework_prefab, goal_transform.position, Quaternion.identity);

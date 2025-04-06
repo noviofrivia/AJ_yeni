@@ -3284,14 +3284,15 @@ MonoBehaviour:
   gol_atan_topu_resetle: 0
   reset_timer: 2
   gameTimeMultiplier: 1.5
+  simulasyon_baslama_suresi: 3
   default_gol_sesi: {fileID: 8300000, guid: abf37ec05f12bb64db75f766b28a8952, type: 3}
-  "birinci_tak\xFDm_gol_sesi": {fileID: 8300000, guid: 7471d736f84f130418c7fa73d9cf8852, type: 3}
-  "ikinci_tak\xFDm_gol_sesi": {fileID: 8300000, guid: 51bd7a5e64bb2c9439e350111f02ce76, type: 3}
+  "birinci_tak\u0131m_gol_sesi": {fileID: 0}
+  "ikinci_tak\u0131m_gol_sesi": {fileID: 0}
   ambiyans_sesi: {fileID: 8300000, guid: 52e2842a3dbe7934487a00433561e242, type: 3}
-  "default_gol_sesi_y\xFCksekli\xF0i": 1
-  "gol_sesi_y\xFCksekli\xF0i": 1
-  "ambiyans_sesi_y\xFCksekli\xF0i": 0.5
-  "top_carpisma_sesi_y\xFCksekli\xF0i": 0.5
+  "default_gol_sesi_y\xFCksekli\u011Fi": 1
+  "gol_sesi_y\xFCksekli\u011Fi": 1
+  "ambiyans_sesi_y\xFCksekli\u011Fi": 0.5
+  "top_carpisma_sesi_y\xFCksekli\u011Fi": 0.5
   disableBall1At90: 1
   disableBall2At90: 1
   disableGoalAt90: 0
