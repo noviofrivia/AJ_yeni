@@ -1281,7 +1281,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 906fadd655769e9419baaf4848efc867, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 89a113dc31911ae4eb611d87b45eda93, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2005,7 +2005,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &935582689
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3286,13 +3286,13 @@ MonoBehaviour:
   gameTimeMultiplier: 1.5
   simulasyon_baslama_suresi: 3
   default_gol_sesi: {fileID: 8300000, guid: abf37ec05f12bb64db75f766b28a8952, type: 3}
-  "birinci_tak\u0131m_gol_sesi": {fileID: 0}
-  "ikinci_tak\u0131m_gol_sesi": {fileID: 0}
+  "birinci_tak\xFDm_gol_sesi": {fileID: 0}
+  "ikinci_tak\xFDm_gol_sesi": {fileID: 0}
   ambiyans_sesi: {fileID: 8300000, guid: 52e2842a3dbe7934487a00433561e242, type: 3}
-  "default_gol_sesi_y\xFCksekli\u011Fi": 1
-  "gol_sesi_y\xFCksekli\u011Fi": 1
-  "ambiyans_sesi_y\xFCksekli\u011Fi": 0.5
-  "top_carpisma_sesi_y\xFCksekli\u011Fi": 0.5
+  "default_gol_sesi_y\xFCksekli\xF0i": 1
+  "gol_sesi_y\xFCksekli\xF0i": 1
+  "ambiyans_sesi_y\xFCksekli\xF0i": 0.5
+  "top_carpisma_sesi_y\xFCksekli\xF0i": 0.5
   disableBall1At90: 1
   disableBall2At90: 1
   disableGoalAt90: 0
