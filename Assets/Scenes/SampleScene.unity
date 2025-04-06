@@ -3272,8 +3272,8 @@ MonoBehaviour:
   TeamLogo1: {fileID: 21300000, guid: bd4e6ae4a70ea024a9f76c38c16d7803, type: 3}
   BallLogo1: {fileID: 21300000, guid: bd4e6ae4a70ea024a9f76c38c16d7803, type: 3}
   Ball1_Border: {fileID: 21300000, guid: 92fbd6c0246471c49b864712e4fbbdeb, type: 3}
-  TeamLogo2: {fileID: 21300000, guid: 0304043c3e1f6e0448274c5b2faa1bad, type: 3}
-  BallLogo2: {fileID: 21300000, guid: 0304043c3e1f6e0448274c5b2faa1bad, type: 3}
+  TeamLogo2: {fileID: 21300000, guid: 1d4c0f167d881e6458117c44f804bd3f, type: 3}
+  BallLogo2: {fileID: 21300000, guid: c8b075b89f71e0d45bc4210a58272dc7, type: 3}
   Ball2_Border: {fileID: 21300000, guid: 92fbd6c0246471c49b864712e4fbbdeb, type: 3}
   CanvasBackground: {fileID: 21300000, guid: 456ccdee393162747a15cfb513eeeda7, type: 3}
   AudienceSprite: {fileID: 21300000, guid: 17d7efc19b81540418b392205b06088c, type: 3}
@@ -3285,16 +3285,16 @@ MonoBehaviour:
   reset_timer: 2
   gameTimeMultiplier: 1.5
   default_gol_sesi: {fileID: 8300000, guid: abf37ec05f12bb64db75f766b28a8952, type: 3}
-  "birinci_tak\xFDm_gol_sesi": {fileID: 0}
-  "ikinci_tak\xFDm_gol_sesi": {fileID: 0}
+  "birinci_tak\xFDm_gol_sesi": {fileID: 8300000, guid: 7471d736f84f130418c7fa73d9cf8852, type: 3}
+  "ikinci_tak\xFDm_gol_sesi": {fileID: 8300000, guid: 51bd7a5e64bb2c9439e350111f02ce76, type: 3}
   ambiyans_sesi: {fileID: 8300000, guid: 52e2842a3dbe7934487a00433561e242, type: 3}
   "default_gol_sesi_y\xFCksekli\xF0i": 1
   "gol_sesi_y\xFCksekli\xF0i": 1
   "ambiyans_sesi_y\xFCksekli\xF0i": 0.5
   "top_carpisma_sesi_y\xFCksekli\xF0i": 0.5
-  disableBall1At90: 0
-  disableBall2At90: 0
-  disableGoalAt90: 1
+  disableBall1At90: 1
+  disableBall2At90: 1
+  disableGoalAt90: 0
   StartSimulationButton: {fileID: 1640259024}
   GoalText_gameobject: {fileID: 1427895403}
   ball_1: {fileID: 50126021}
