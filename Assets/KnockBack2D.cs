@@ -40,6 +40,12 @@ public class Knockback2D : MonoBehaviour
             rb.AddForce(knockbackDirection * arenaKnockbackForce, ForceMode2D.Impulse);
         }
 
+        else if(collision.gameObject.tag == "goalpost_colliders")
+        {
+            Vector2 knockbackDirection = (collision.transform.position - transform.position).normalized;
+            rb.AddForce(knockbackDirection * arenaKnockbackForce, ForceMode2D.Impulse);
+        }
+
         else if (collision.gameObject.CompareTag("ball"))
         {
             // Dynamic knockback (runs on both balls)
